@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conexão Nuvem - Seu portal de notícias</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; background:#f5f5f5; }
+        header { background:#fff; padding:20px; box-shadow:0 2px 5px rgba(0,0,0,.1); }
+        h1 { color:#0066cc; }
+        .container { padding:20px; }
+        .news-card { background:#fff; padding:20px; margin-bottom:15px; border-radius:8px; }
+        .btn { padding:10px 15px; border:none; border-radius:5px; cursor:pointer; }
+        .btn-login { background:#0066cc; color:#fff; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1><i class="fas fa-cloud"></i> Conexão Nuvem</h1>
+    <button class="btn btn-login">Login</button>
+</header>
+
+<div class="container">
+    <div class="news-card">
+        <h2>Novo sistema de IA revoluciona o jornalismo digital</h2>
+        <p>Plataforma inovadora permite personalização de conteúdo e verificação de fatos em tempo real.</p>
+    </div>
+</div>
+
+<!-- Modal de Login -->
+<div class="login-area" style="display:none;">
+    <form>
+        <label>E-mail</label><br>
+        <input type="email" required><br><br>
+        <label>Senha</label><br>
+        <input type="password" required><br><br>
+        <button class="btn btn-login">Entrar</button>
+    </form>
+</div>
+
+</body>
+</html>
